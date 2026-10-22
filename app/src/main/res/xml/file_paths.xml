@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Shareable only via the user's share sheet: passive SAP captures, the feedback log copy and GPX exports. -->
+<paths>
+    <files-path name="sap" path="sap/" />
+    <cache-path name="feedback" path="feedback/" />
+    <cache-path name="exports" path="exports/" />
+</paths>

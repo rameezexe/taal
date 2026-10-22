@@ -1,0 +1,9 @@
+# Download site: static files from scripts/release.py, served by a Worker (Cloudflare's replacement for Pages).
+# Deploy: npx wrangler deploy --config site/wrangler.toml
+name = "taal"
+compatibility_date = "2026-10-01"
+workers_dev = true
+preview_urls = false
+
+[assets]
+directory = "./public"

@@ -1,0 +1,7 @@
+<resources>
+    <style name="Theme.Fit3Zone" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">#FF14110F</item>
+        <item name="android:statusBarColor">#FF14110F</item>
+        <item name="android:navigationBarColor">#FF14110F</item>
+    </style>
+</resources>

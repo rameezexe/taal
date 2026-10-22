@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Taal · beta</title>
+<meta name="description" content="Taal: heart-rate zone running for Android. Live zone alerts with the screen off, any Bluetooth strap or watch, GPS runs, routes, Strava and Samsung Health.">
+<meta name="theme-color" content="#14110F">
+<link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+<link rel="icon" href="assets/icon-192.png" sizes="192x192" type="image/png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Taal · run by heart rate">
+<meta property="og:description" content="Zone alerts in your pocket with the screen off, routes, Strava and Samsung Health. Free Android beta.">
+<meta property="og:url" content="{{site}}/">
+<meta property="og:image" content="{{site}}/assets/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<style>
+  :root {
+    /* Kesar Dusk, the app's palette */
+    --bg: #14110F; --surface: #1E1A17; --hair: #2E2824; --text: #F5EEE6; --muted: #A89C90;
+    --accent: #FF7A1A; --on-accent: #1A0C02; --accent2: #FFC14D; --warn: #FFC14D;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.55 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 680px; margin: 0 auto; padding: 32px 16px 64px; }
+  .logo { display: block; width: 150px; height: auto; margin: 4px 0 18px; }
+  h1 { font-size: 44px; line-height: 1.05; margin: 8px 0 4px; letter-spacing: -0.02em; }
+  h2 { font-size: 20px; margin: 36px 0 10px; }
+  .tag { display: inline-block; font-size: 12px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--accent2); }
+  .lead { color: var(--muted); font-size: 18px; margin: 0 0 20px; }
+  .card { background: var(--surface); border: 1px solid var(--hair); border-radius: 18px; padding: 18px; margin: 12px 0; }
+  .btn { display: block; text-align: center; text-decoration: none; font-weight: 700; font-size: 18px; color: var(--on-accent);
+         background: var(--accent); border-radius: 999px; padding: 16px; }
+  .meta { color: var(--muted); font-size: 13px; margin-top: 10px; word-break: break-all; }
+  ol, ul { padding-left: 22px; margin: 8px 0; }
+  li { margin: 6px 0; }
+  .warn { border-color: #5a4322; }
+  .warn strong { color: var(--warn); }
+  a { color: var(--accent); }
+  footer { color: var(--muted); font-size: 13px; margin-top: 40px; }
+</style>
+</head>
+<body>
+<main>
+  <img class="logo" src="assets/logo.svg" alt="" width="150" height="105">
+  <span class="tag">Beta · Android</span>
+  <h1>Taal</h1>
+  <p class="lead">Run by heart rate. Taal buzzes in your pocket when you leave your zone, so you can keep easy runs easy and hard runs hard, with the screen off.</p>
+
+  <div class="card">
+    <a class="btn" href="{{apk}}">Download Taal {{version}}</a>
+    <div class="meta">{{size}} · {{date}} · Android 12 or newer<br>SHA-256 {{sha256}}</div>
+  </div>
+
+  <h2>What it does</h2>
+  <ul>
+    <li>Live heart rate from a Bluetooth chest strap, a watch that broadcasts heart rate, or a Galaxy Fit3.</li>
+    <li>Five heart-rate zones (from your age and resting heart rate) with different vibrations for above and below your zone.</li>
+    <li>GPS runs with pace, splits, laps, map and spoken cues; walks, treadmill, cycling and strength too.</li>
+    <li>Routes: draw your own on the map, let Taal plan a loop of any distance from where you stand, or import a GPX, then follow it with off-route alerts.</li>
+    <li>After each activity: title, note, effort and achievements (fastest 1 km, 5 km, longest run…), plus an image to share on Instagram or WhatsApp.</li>
+    <li>Structured workouts, a training calendar, load and recovery, VO2max and race predictions.</li>
+    <li>Optional upload to Strava and Samsung Health (Health Connect). No account, no ads, no tracking: your data stays on your phone.</li>
+  </ul>
+
+  <h2>Install</h2>
+  <ol>
+    <li>Tap <strong>Download</strong> above. If Chrome asks, choose <strong>Download anyway</strong>.</li>
+    <li>Open the downloaded file. Android asks to allow installs from your browser: <strong>Settings → Allow from this source</strong>, then go back.</li>
+    <li>Tap <strong>Install</strong>. If Play Protect asks, choose <strong>More details → Install anyway</strong> (the app isn't on the Play Store yet).</li>
+    <li>Open Taal and follow the setup: permissions, your profile, your sensor, and <strong>background running</strong>.</li>
+  </ol>
+  <p>Updates: the app tells you when a new version is out. Download it the same way and tap <strong>Update</strong>; your data stays.</p>
+
+  <div class="card warn">
+    <strong>Before every run</strong>
+    <ul>
+      <li>Turn <strong>Power saving / Battery saver off</strong>: on many phones it switches GPS off with the screen off.</li>
+      <li>Do the <strong>background steps for your phone</strong> once (Taal shows them in setup and under Device → Background running). Xiaomi, Redmi, POCO, Oppo, Realme, OnePlus, Vivo and iQOO phones need them, or the run stops in your pocket.</li>
+    </ul>
+  </div>
+
+  <h2>Your first week as a tester</h2>
+  <ol>
+    <li>An easy run with a zone target (Run → Zone 2): did the vibrations come at the right times?</li>
+    <li>A run with the phone in your pocket and the screen off the whole time: is the distance right compared with a watch or Strava?</li>
+    <li>Connect Strava or Samsung Health (Device tab) and check the run arrives.</li>
+  </ol>
+  <p>After each run, or whenever something looks wrong: <strong>Device → Feedback</strong>. It opens your email or chat app with your phone details and the app log attached. You see everything before you send it.</p>
+
+  <h2>Good to know</h2>
+  <ul>
+    <li>Taal is not a medical device. Zones and training numbers are estimates for fitness use.</li>
+    <li>Taal is an independent app, not made by or affiliated with Samsung, Garmin or Strava. Galaxy Fit3 band data is an unofficial, experimental option, off by default.</li>
+    <li>Uninstalling deletes your activities. Use <strong>Device → Your data → Save backup file</strong> first.</li>
+  </ul>
+
+  <footer><a href="privacy.html">Privacy policy</a> · Taal {{version}} · Made by <a href="https://portfolio-beige-one-acuumxf4x9.vercel.app/">Rameez</a></footer>
+</main>
+</body>
+</html>
